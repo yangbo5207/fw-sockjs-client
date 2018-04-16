@@ -1,8 +1,8 @@
 {
-  "name": "sockjs-client",
+  "name": "fw-sockjs-client",
   "description": "SockJS-client is a browser JavaScript library that provides a WebSocket-like object.",
-  "version": "1.1.4",
-  "author": "Bryce Kahle",
+  "version": "1.0.1",
+  "author": "feewee",
   "jsdelivr": "dist/sockjs.min.js",
   "browser": {
     "./lib/transport/driver/websocket.js": "./lib/transport/browser/websocket.js",
@@ -62,7 +62,7 @@
   "main": "./lib/entry.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sockjs/sockjs-client.git"
+    "url": "https://github.com/yangbo5207/fw-sockjs-client"
   },
   "scripts": {
     "test": "mocha tests/node.js",
